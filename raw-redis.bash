@@ -1,6 +1,6 @@
 # Starting Redis Server
 
-redis-start
+redis-server
 
 redis-cli
 
