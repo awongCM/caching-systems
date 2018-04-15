@@ -1,5 +1,7 @@
 # Starting Redis Server
 
+redis-start
+
 redis-cli
 
 #String values
@@ -24,20 +26,20 @@ MSET a 10 b 20 c 30
 MGET a b c
 
 # altering querying key
-set mykey hello
-exists mykey
-del mykey
-exists mykey
-type mykey
+SET mykey hello
+EXISTS mykey
+DELETE mykey
+EXISTS mykey
+TYPE mykey
 
 # set timeout
-set key somevalue
-expire key 5
-get key
-get key
+SET mykey somevalue
+EXPIRE mykey 5
+GET mykey
+GET mykey
 
-set key 100 ex 10
-ttl key
+SET key 100 ex 10
+TTL key
 
 # LIST OPERATIONS
 RPUSH MYLIST a
