@@ -5,6 +5,7 @@ const redis = require('redis'),
         port: 6379
       });
 
+  // TODO: - to handle asynchronous nature of its sets core APIs 
   client.on("connect", () => {
      
     // String values
