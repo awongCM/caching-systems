@@ -11,5 +11,5 @@ With the above, they will be implemented in the following languages:
 * Golang
 
 ## TODOS
-~~1. Python and Golang to provide~~
+1. ~~Python and Golang to provide~~
 2. Do the same for Memcache.
