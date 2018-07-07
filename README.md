@@ -1,4 +1,4 @@
-# Exploring following caching technologies used in web development today
+# Exploring following caching technologies used in today's web development
 
 * Redis
 * Memcache
