@@ -10,5 +10,6 @@ With the above, they will be implemented in the following languages:
 * Python
 * Golang
 
-##TODOS
-1. Python and Golang to provide
+## TODOS
+~~1. Python and Golang to provide~~
+2. Do the same for Memcache.
